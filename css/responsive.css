@@ -1,0 +1,375 @@
+@media screen and (max-width:1199px) {
+    .banner-text h1 {
+        text-transform: uppercase;
+        font-size: 56px;
+        line-height: 62px;
+        color: #fff;
+        font-weight: 600;
+    }
+h2{
+    font-size: 36px;
+}
+    /* .fetures-text h2 {
+        font-size: 36px;
+    } */
+
+    .fetures-card p {
+        font-size: 15px;
+    }
+
+    /* .about-right h2 {
+        font-size: 36px;
+    } */
+
+    .counter-card-main h5 {
+        font-size: 14px;
+    }
+
+    .quality-main,
+    .faq-main,
+    .about-main {
+        align-items: center;
+        display: flex;
+    }
+
+    .next span{
+        right: 0;
+
+    }
+    .prev span{
+        left: 0;
+    }
+
+}
+@media screen and (max-width:991px) {
+    h2{
+        font-size:30px;
+        line-height: 36px;
+        max-width: 100%;
+    }
+    .header-media-left{
+        column-gap: 15px;
+    }
+    .header-media-right ul{
+        display: flex;
+        column-gap:10px;
+    }
+    .nav ul{
+        column-gap: 15px;
+    }
+    .media-icon{
+        column-gap: 15px;
+    }
+    .logo{
+        width: 130px;
+    }
+    .logo a img{
+        width: 100%;
+    }
+    .banner-text h1{
+        font-size: 48px;
+    }
+    .banner-text p{
+        margin: 15px 0 10px 0;
+    }
+    #features{
+        padding-top: 50px;
+    }
+    /* .fetures-text h2{
+        font-size: 30px;
+        line-height: 36px;
+    } */
+    #about-us{
+        padding: 50px 0;
+    }
+    .about-right{
+        max-width: 100%;
+        padding-top: 50px;
+    }
+    .about-right h2{
+        max-width: 100%;
+    }
+    .about-right-bottom{
+        padding-bottom: 20px;
+    }
+    .call-icon-main{
+        padding-top: 20px;
+    }
+    #service, #counter, #Quality, #team, #project, #elevate, #brand, #faq, #news{
+        padding: 50px 0;
+    }
+    .counter-card-main{
+        justify-content: center;
+    }
+    .counter-card{
+        align-items: center;
+    }
+    .quality-left h2{
+        margin-bottom: 15px;
+        max-width: 100%;
+    }
+    .quality-left p, .quality-bottom{
+        max-width: 100%;
+    }
+    #vedio{
+        padding: 50px 0;
+    }
+    .vedio a{
+        padding: 20px;
+    }
+    .fa-play{
+        margin-left: 8px;
+    }
+    .call-content{
+        padding: 80px 40px;
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+    #news{
+        margin-top: 0;
+        
+    }
+    .news-card-text ul{
+        flex-wrap: wrap;
+    }
+    .news-card-text ul li{
+        width: 100%;
+    }
+    .news-card-text ul li a{
+        margin: 0;
+    }
+    .news-card-text a{
+        font-size: 18px;
+    }
+    #footer{
+        padding: 0;
+    }
+    .footer-card-2 ul li a{
+        margin: 0;
+    }
+    #footer .footer-bottom{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:767px) {
+    #service, #counter, #Quality, #team, #project, #elevate, #brand, #faq, #news{
+        padding: 40px 0;
+    }
+    .header-top{
+        display: none;
+    }
+    .header-bottom{
+        padding: 20px 0;
+    }
+    .nav{
+        display: none;
+    }
+    .nav ul{
+        left:-100%;
+        transition: all ease 1s;
+         li{
+            a{
+                line-height: normal;
+            }
+         }
+    }
+    .fixed-header .header-main{
+        top: 0;
+    }
+    body{
+        padding-top: 72px;
+        transition: inherit;
+    }  
+    .banner-text h1{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .banner-text p{
+        margin: 0;
+    }
+    .banner-text a.btn{
+        margin-top: 15px;
+        padding: 10px 13px;
+    }
+    .fetures-text{
+        margin-bottom: 15px;
+    }
+    .call-icon-text span{
+        margin-bottom: 0;
+    }
+  #team .row{
+    row-gap: 15px;
+  }
+  .team-icon{
+    bottom: 140px;
+  }
+  #vedio{
+    padding: 0;
+  }
+  .faq-right{
+    margin-top: 15px;
+  }
+  .call-content h2{
+    font-size: 25px;
+    line-height: 26px;
+  }
+  .call-content a{
+    padding: 10px 13px;
+  }
+  .news-title{
+    margin-bottom: 15px;
+  }
+  .offcanvas{
+    display: none;
+  }
+  .offcanvas.show{
+    display: none;
+  }
+
+  .show .nav{
+    display: block;
+  }
+  .show .nav ul{
+    position: absolute;
+    top:100%;
+    left:0;
+    flex-direction: column;
+    background: white;
+    display: inline-block;
+    width: 1000%;
+    height: 100vh;
+    z-index: 9999;
+    padding: 100px 50px;
+  
+  }
+}
+@media screen and (max-width:575px) {
+    h2{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    #features, #about-us, #service, #counter, #Quality, #team, #project, #elevate, #brand, #faq, #news{
+        padding: 30px 0;
+    }
+    .banner-text h1{
+        font-size:18px;
+        line-height: 18px;
+    }
+    .banner-text p{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .banner-text a.btn{
+        margin-top: 8px;
+        padding: 2px 6px;
+        font-size: 14px;
+    }
+    .fetures-card h4 a{
+        margin: 10px 0;
+    }
+    .about-left-card:nth-child(even) {
+        top:0;}
+
+        .about-left {
+            gap: 15px;
+    }
+    .about-left-card {
+        width: calc(50% - 7.5px);
+    }
+    .counter-main{
+        position: inherit;
+        transform: inherit;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    .counter{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-right{
+        margin-left: 0;
+    }
+    .about-right-bottom img{
+        width: 100%;
+    }
+    .call-icon{
+        width: 40px;
+        height: 40px;
+    } 
+    .call-icon i, .call-icon-text span{
+        font-size: 14px;
+    }
+    .counter-card-main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: solid 1px #fff;
+        padding-top: 20px;
+    }
+  
+    .counter-card{
+        justify-content:center;
+    }
+    .counter-card span {
+        font-size: 18px;
+       
+    }
+    .check-main{
+        column-gap: 15px;
+    }
+    .check i{
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+
+    }
+    .quality-left p{
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    .team-title{
+        margin-bottom: 20px;
+    }
+    .team-icon{
+        bottom: 95px;
+    }
+    .vedio a{
+        padding: 8px;
+        font-size: 14px;
+    }
+    .project-title{
+        margin-bottom: 20px;
+    }
+    .elevate-title h2{
+        margin-bottom: 20px;
+    }
+    .elevate-extra{
+        padding: 0;
+
+    }
+    .elevate-slide-item{
+        padding: 30px 10px;
+        margin-bottom: 0;
+    }
+    .call-content {
+        padding: 10px 15px;
+    }
+    .call-content h2{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .call-content a{
+        font-size: 14px;
+    }
+    .footer-buttom{
+        flex-wrap: wrap;
+    }
+    .footer-bottom p{
+        width: 100%;
+        font-size: 16px;
+    }
+
+}
